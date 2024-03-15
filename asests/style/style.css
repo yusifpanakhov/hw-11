@@ -1,0 +1,762 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+:root{
+    --main-color:#1B1C31;
+    --second-color:#222338;
+    --third-color:#546FFF;
+
+}
+
+body{
+    background-color: #1B1C31;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+}
+
+.header{
+    background-color: var(--second-color);
+    width: 244px;
+    height:650px;
+    border-radius: 16px;
+    margin-left: 42px;
+    border: 15px solid var(--second-color);
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.text1,.text1-2,.text1-3{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+    margin-top: 15px;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+.text1-3{
+    margin-bottom: 58px;
+}
+
+.nav{
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    margin-top: 140px;
+    
+}
+
+.nav-item{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    position: relative;
+    bottom: 263px;
+    right: 90px;
+}
+.nav-icons{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 120px;
+    gap: 28px;
+}
+
+.nav-item-3{
+    background-color: #6076FF;
+    border-radius: 10px;
+
+}
+.header2{
+    background-color: var(--second-color);
+    width:1114px ;
+    height:182px ;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    margin-left: 326px;
+    position: relative;
+    bottom: 670px;
+   
+}
+.text2{
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    margin-right:550px;
+    margin-top: 32px;
+}
+.searchbar{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 28px;
+    padding-right: 280px;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    right: 620px;
+}
+.profile{
+    margin-top: 30px;
+    margin-right: 200px;
+}
+.notfication{
+    margin-top: 30px;
+    position: absolute;
+    margin-left:700px;
+}
+.button1{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 14px 28px;
+    margin-top: 500px;
+    color: white;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    height: 19px;
+    margin-right: 30px;
+    position: relative;
+    bottom: 400px;
+    right: 230px;
+    width: 70px;
+    
+}
+
+.button2{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 14px 28px;
+    margin-top: 500px;
+    color: white;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    height: 19px;
+    margin-right: 30px;
+    position: absolute;
+    bottom: 400px;
+    right: 10px;
+    width: 150px;
+    bottom: 400px;
+
+}
+.buttons{
+    position: absolute;
+    right: 60px;
+}
+.text3{
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    position: absolute;
+    bottom: 480px;
+    margin-left: 330px;
+}
+
+.box1{
+    background-color: var(--second-color);
+    height: 140px;
+    width: 328px;
+    position: absolute;
+    bottom: 330px;
+    margin-left: 330px;
+    border-radius: 10px;
+}
+.profile1{
+    margin-left: 24px;
+    margin-top: 24px;
+}
+.text4{
+    color: white;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    font-weight: 500;
+    position: absolute;
+    bottom: 75px;
+    margin-left: 80px;
+}
+.text4-2{
+    opacity: 0.5;
+}
+.follow1{
+    color: var(--third-color);
+    position: absolute;
+    bottom: 75px;
+    margin-left: 250px;
+}
+.icon1{
+    position: absolute;
+    bottom: 25px;
+    margin-left: 40px;
+}
+.text5{
+    font-weight: 400;
+    position: absolute;
+    bottom: 31px;
+    margin-left: 80px;
+    color: white;
+}
+.star1{
+    position: absolute;
+    bottom: 28px;
+    margin-left: 170px;
+}
+.text6{
+    font-weight: 400;
+    position: absolute;
+    bottom: 30px;
+    margin-left: 190px;
+    color: white;
+}
+
+
+
+.box2{
+    background-color: var(--second-color);
+    height: 140px;
+    width: 328px;
+    position: absolute;
+    bottom: 330px;
+    margin-left: 680px;
+    border-radius: 10px;
+}
+.profile2{
+    margin-left: 24px;
+    margin-top: 24px;
+}
+.text7{
+    color: white;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    font-weight: 500;
+    position: absolute;
+    bottom: 75px;
+    margin-left: 80px;
+}
+.text7-2{
+    opacity: 0.5;
+}
+.follow2{
+    color: white;
+    position: absolute;
+    bottom: 75px;
+    margin-left: 250px;
+    opacity: 0.5;
+}
+.icon2{
+    position: absolute;
+    bottom: 25px;
+    margin-left: 40px;
+}
+.text8{
+    font-weight: 400;
+    position: absolute;
+    bottom: 31px;
+    margin-left: 80px;
+    color: white;
+}
+.star2{
+    position: absolute;
+    bottom: 28px;
+    margin-left: 170px;
+}
+.text9{
+    font-weight: 400;
+    position: absolute;
+    bottom: 30px;
+    margin-left: 190px;
+    color: white;
+}
+
+
+
+
+
+
+.box3{
+    background-color: var(--second-color);
+    height: 140px;
+    width: 328px;
+    position: absolute;
+    bottom: 330px;
+    margin-left: 1030px;
+    border-radius: 10px;
+}
+.profile3{
+    margin-left: 24px;
+    margin-top: 24px;
+}
+.text10{
+    color: white;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    font-weight: 500;
+    position: absolute;
+    bottom: 75px;
+    margin-left: 80px;
+}
+.text10-2{
+    opacity: 0.5;
+}
+.follow3{
+    color: var(--third-color);
+    position: absolute;
+    bottom: 75px;
+    margin-left: 250px;
+}
+.icon3{
+    position: absolute;
+    bottom: 25px;
+    margin-left: 40px;
+}
+.text11{
+    font-weight: 400;
+    position: absolute;
+    bottom: 31px;
+    margin-left: 80px;
+    color: white;
+}
+.star3{
+    position: absolute;
+    bottom: 28px;
+    margin-left: 170px;
+}
+.text12{
+    font-weight: 400;
+    position: absolute;
+    bottom: 30px;
+    margin-left: 190px;
+    color: white;
+}
+
+.text13{
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    position: absolute;
+    bottom: 300px;
+    margin-left: 330px;
+    margin-top: 30px;
+}
+
+
+.box4{
+    background-color: var(--second-color);
+    width: 354px;
+    height: 228px;
+    margin-left: 330px;
+    position: absolute;
+    bottom: 45px ;
+    border-radius: 10px;
+}
+
+.profile4{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.text14{
+    color: white;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    font-weight: 500;
+    position: absolute;
+    bottom: 155px;
+    margin-left: 80px;
+    font-size: 16px;
+}
+.text14-2{
+    opacity: 0.5;
+}
+.follow4{
+    position: absolute;
+    bottom: 155px;
+    margin-left: 230px;
+    color: var(--third-color);
+}
+.text15{
+    opacity: 0.5;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    bottom: 105px;
+    font-size: 15px;
+    margin-left:12px ;
+}
+.icon4{
+    margin-left: 25px;
+    margin-top: 90px;
+}
+.text16{
+    color: white;
+    margin-left: 55px;
+    position: absolute;
+    bottom: 42px;
+    margin-left: 60px;
+}
+.star4{
+    position: absolute;
+    bottom: 40px;
+    margin-left: 175px;
+}
+.text17{
+    color: white;
+    position: absolute;
+    bottom: 42px;
+    margin-left: 195px;
+}
+
+
+.box5{
+    background-color: var(--second-color);
+    width: 354px;
+    height: 228px;
+    margin-left: 700px;
+    position: absolute;
+    bottom: 45px ;
+    border-radius: 10px;
+}
+
+.profile5{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.text18{
+    color: white;
+    font-weight: 500;
+    position: absolute;
+    bottom: 155px;
+    font-size: 16px;
+    margin-left: 80px;
+}
+.text18-2{
+    opacity: 0.5;
+}
+
+.follow5{
+    position: absolute;
+    bottom: 155px;
+    margin-left: 230px;
+    color: var(--third-color);
+}
+
+.text19{
+    opacity: 0.5;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    bottom: 105px;
+    font-size: 15px;
+    margin-left:12px ;
+}
+
+.icon5{
+    margin-left: 25px;
+    margin-top: 90px;
+}
+.text20{
+    color: white;
+    margin-left: 55px;
+    position: absolute;
+    bottom: 42px;
+    margin-left: 60px;
+}
+.star5{
+    position: absolute;
+    bottom: 40px;
+    margin-left: 175px;
+}
+.text21{
+    color: white;
+    position: absolute;
+    bottom: 42px;
+    margin-left: 195px;
+}
+
+
+
+.box6{
+    background-color: var(--second-color);
+    width: 354px;
+    height: 228px;
+    margin-left: 1080px;
+    position: absolute;
+    bottom: 45px ;
+    border-radius: 10px;
+}
+
+.profile6{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.text22{
+    color: white;
+    font-weight: 500;
+    position: absolute;
+    bottom: 155px;
+    font-size: 16px;
+    margin-left: 80px;
+}
+.text22-2{
+    opacity: 0.5;
+}
+
+.follow6{
+    position: absolute;
+    bottom: 155px;
+    margin-left: 230px;
+    color: var(--third-color);
+}
+
+.text23{
+    opacity: 0.5;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    bottom: 105px;
+    font-size: 15px;
+    margin-left:12px ;
+}
+
+.icon6{
+    margin-left: 25px;
+    margin-top: 90px;
+}
+.text24{
+    color: white;
+    margin-left: 55px;
+    position: absolute;
+    bottom: 42px;
+    margin-left: 60px;
+}
+.star6{
+    position: absolute;
+    bottom: 40px;
+    margin-left: 175px;
+}
+.text25{
+    color: white;
+    position: absolute;
+    bottom: 42px;
+    margin-left: 195px;
+}
+
+
+
+
+
+
+.box7{
+    background-color: var(--second-color);
+    width: 354px;
+    height: 228px;
+    margin-left: 330px;
+    position: absolute;
+    bottom: 45px ;
+    border-radius: 10px;
+}
+
+.profile7{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.text26{
+    color: white;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    font-weight: 500;
+    position: absolute;
+    bottom: 155px;
+    margin-left: 80px;
+    font-size: 16px;
+}
+.text26-2{
+    opacity: 0.5;
+}
+.follow7{
+    position: absolute;
+    bottom: 155px;
+    margin-left: 230px;
+    color: var(--third-color);
+}
+.text27{
+    opacity: 0.5;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    bottom: 105px;
+    font-size: 15px;
+    margin-left:12px ;
+}
+.icon7{
+    margin-left: 25px;
+    margin-top: 90px;
+}
+.text28{
+    color: white;
+    margin-left: 55px;
+    position: absolute;
+    bottom: 42px;
+    margin-left: 60px;
+}
+.star7{
+    position: absolute;
+    bottom: 40px;
+    margin-left: 175px;
+}
+.text29{
+    color: white;
+    position: absolute;
+    bottom: 42px;
+    margin-left: 195px;
+}
+
+
+.box8{
+    background-color: var(--second-color);
+    width: 354px;
+    height: 228px;
+    margin-left: 700px;
+    position: absolute;
+    bottom: 45px ;
+    border-radius: 10px;
+}
+
+.profile8{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.text30{
+    color: white;
+    font-weight: 500;
+    position: absolute;
+    bottom: 155px;
+    font-size: 16px;
+    margin-left: 80px;
+}
+.text30-2{
+    opacity: 0.5;
+}
+
+.follow8{
+    position: absolute;
+    bottom: 155px;
+    margin-left: 230px;
+    color: var(--third-color);
+}
+
+.text31{
+    opacity: 0.5;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    bottom: 105px;
+    font-size: 15px;
+    margin-left:12px ;
+}
+
+.icon8{
+    margin-left: 25px;
+    margin-top: 90px;
+}
+.text32{
+    color: white;
+    margin-left: 55px;
+    position: absolute;
+    bottom: 42px;
+    margin-left: 60px;
+}
+.star8{
+    position: absolute;
+    bottom: 40px;
+    margin-left: 175px;
+}
+.text33{
+    color: white;
+    position: absolute;
+    bottom: 42px;
+    margin-left: 195px;
+}
+
+
+
+.box9{
+    background-color: var(--second-color);
+    width: 354px;
+    height: 228px;
+    margin-left: 1080px;
+    position: absolute;
+    bottom: 45px ;
+    border-radius: 10px;
+}
+
+.profile9{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.text34{
+    color: white;
+    font-weight: 500;
+    position: absolute;
+    bottom: 155px;
+    font-size: 16px;
+    margin-left: 80px;
+}
+.text34-2{
+    opacity: 0.5;
+}
+
+.follow9{
+    position: absolute;
+    bottom: 155px;
+    margin-left: 230px;
+    color: var(--third-color);
+}
+
+.text35{
+    opacity: 0.5;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    bottom: 105px;
+    font-size: 15px;
+    margin-left:12px ;
+}
+
+.icon9{
+    margin-left: 25px;
+    margin-top: 90px;
+}
+.text36{
+    color: white;
+    margin-left: 55px;
+    position: absolute;
+    bottom: 42px;
+    margin-left: 60px;
+}
+.star9{
+    position: absolute;
+    bottom: 40px;
+    margin-left: 175px;
+}
+.text37{
+    color: white;
+    position: absolute;
+    bottom: 42px;
+    margin-left: 195px;
+}
+
+.bottom-boxes{
+    position: absolute;
+    top: 1000px;
+}
